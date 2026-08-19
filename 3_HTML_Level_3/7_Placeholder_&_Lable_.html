@@ -1,0 +1,76 @@
+<!-- PlaceHolder Attribute 
+ 
+<input type ="text"placeholder="Enter Name">
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Enter User Name">
+        <br>
+        <input type="Password" placeholder="Enter User password">
+    </form>
+</body>
+</html>
+
+
+<!--Lable : Lable Eelemt reprents a caption  for an item in a user interface  
+Syntax:1
+<label>
+Enter your username :
+<input type="text" placeholder="username">
+</label>
+
+Syntax:2 
+Label Classical Approach
+<label for="username"> Enter your username: </label>
+<input type="text" id="username" placeholder="username">
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <br>
+    <br>
+    <!-- <form action ="/action">
+        <lable>
+            User-name
+            <input type="text" placeholder="Enter User Name">
+        </lable>
+        <br>
+        <br>
+        <lable>
+            Password
+            <input type="Password" placeholder="Enter User password">
+        </lable> 
+         -->
+        
+        <!-- Bass kuch nahi hamne usse iD de di hai Uar kuch nahi  -->
+         <div>
+        <lable for="username"> User-name : </lable>
+            <input type="text" placeholder="Enter User Name" id="username">
+        </div>
+        <div>
+        <lable for="password"> Password: </lable>
+            <input type="Password" placeholder="Enter User password" id="password">
+        </div> 
+        <div>
+            <lable for="age">Enter Age: </lable>
+            <input tpye="number" placeholder="age" id="Age">
+        </div>    
+    </form>
+</body>
+</html>

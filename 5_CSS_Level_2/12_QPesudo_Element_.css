@@ -1,0 +1,20 @@
+/* 
+
+Pseudo Elements  : Hamare  element ko hmm :: esse use karte hai 
+A Keyword added to a selector that lets you style a specific part of the selected element(s)
+:: first-letter
+:: first-line
+:: selection
+
+*/
+
+
+h1::first-letter{
+    color:red;
+}
+p::first-line{
+    color:red;
+}
+h2::selection{
+    background-color:red;
+}

@@ -1,0 +1,37 @@
+/* 
+Animation Shorthand:
+
+animation: myName 2s linear 3s infinite normal
+
+*/
+.box {
+height:100px;
+width:300px;
+background-color:pink;
+
+/* animation-name: widthAnimate;
+animation-duration:2s;
+animation-timing-function:ease-in;
+animation-delay:0s;
+animation-iteration-count: infinite;
+animation-direction: normal; */
+
+/* Yaha Hai  */
+animation: widthAnimate 32 ease-in 0s infinite  normal;
+
+
+}
+
+
+@keyframes widthAnimate {
+    from
+    {
+        width: 10px ;
+        background-color:green ;
+    }
+    to{
+        width: 400px ;
+        background-color: red;
+        border-radius: 15px;
+    } 
+}

@@ -1,0 +1,20 @@
+/* 
+
+
+Adjacent Sibling Combinator
+Eg - Heading3 that comes immediately after any paragraph
+  Sibling combinator
+                    p + h3 {
+                    property: value;
+                    }
+
+                    <p>
+<p>   </p>
+<h3>  </h3>
+<h3>  </h3>   // agr mai soch raha hun ki mai Ye wala h3 use karu
+
+<div>
+<h3>   </h3>
+</div
+
+*/

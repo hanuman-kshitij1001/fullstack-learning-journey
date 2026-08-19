@@ -1,0 +1,11 @@
+Do teen se jada breces ko merge kar dena ek hi apne main brache me that is merge the branch ok 
+ 
+
+Merging Code:
+
+git diff <- branch name->            (to compare commits, branches, files & more)
+git merge <- branch name->           (to merge 2 branches)
+
+OR
+
+Create a PR(Pull request)

@@ -1,0 +1,7 @@
+Navigation : Matlb Kisi Directory aur Folder ke andhr ya bahar kaise jana ye yaha se hota hai 
+...> Inside & Outside Directories
+
+cd = change directory
+
+cd Desktop   // esse haam desktop ke andr jayenge  same jiske andhr bhi jana ho cd ke age uska name de dete hai done 
+cd .. = back button // yaha pe cd dot dot likhne se haam ek steo back jate hai theek

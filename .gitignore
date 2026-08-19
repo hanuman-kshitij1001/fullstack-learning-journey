@@ -1,0 +1,16 @@
+# Dependencies - inko kabhi push mat karo, bahut heavy hote hain
+node_modules/
+
+# Editor settings - personal hote hain, kisi kaam ke nahi dusro ke liye
+.vscode/
+.idea/
+
+# Environment variables (agar future mein banao, isme secret keys hoti hain)
+.env
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

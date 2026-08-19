@@ -1,0 +1,17 @@
+/* 
+
+
+Class Selector  :  Selects an element based on their class attribute
+
+class Selector Use By  " . "  sign Ok
+
+ . myclass {
+            property: value;
+            }
+
+*/
+
+
+.a{
+    color:red;
+}

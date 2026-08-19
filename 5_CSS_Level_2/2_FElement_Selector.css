@@ -1,0 +1,17 @@
+/* 
+Element Selector : Selects all elements of the same type
+Element Selector:
+
+h1 {
+property: value;
+}
+
+*/
+h1 {
+    color: Blue;
+}
+h2,h3{
+    color: red;
+}
+
+

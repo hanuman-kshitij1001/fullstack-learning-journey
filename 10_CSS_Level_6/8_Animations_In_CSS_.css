@@ -1,0 +1,78 @@
+/*
+
+/* 
+
+CSS Animations:
+To animate CSS elements
+
+
+@keyframes myName {
+        from {font-size: 20px; }    = initial value
+        to {font-size: 40px; }      = Final value
+}
+
+
+
+
+
+CSS Animations : property
+
+1- animation-name
+2- animation-duration           : Already padh chuke hai
+3- animation-timing-function    : Already padh chuke hai
+4- animation-delay              : Already padh chuke hai        
+5- animation-iteration-count    : Ki Ap kitni Bar Animation ko dikhna chahate hai
+6- animation-direction           
+
+*/
+
+
+.box {
+height:100px;
+width:300px;
+background-color:pink;
+
+animation-name: widthAnimate;
+animation-duration:2s;
+animation-timing-function:ease-in;
+animation-delay:0s;
+animation-iteration-count: infinite;
+/* visit MDN website Jaha pe wo Dikh raha search  */
+animation-direction: normal;
+/* animation-direction: reverse;
+animation-direction: alternate; */
+
+}
+
+@keyframes kshitij {
+    from
+    {
+        font-size: 20px
+    }
+    to{
+        font-size: 40px
+    } 
+}
+
+@keyframes colorAnimate {
+    from
+    {
+        background-color: green;
+    }
+    to{
+        background-color: red;
+    } 
+}
+@keyframes widthAnimate {
+    from
+    {
+        width: 10px ;
+    }
+    to{
+        width: 400px ;
+    } 
+}
+
+
+
+

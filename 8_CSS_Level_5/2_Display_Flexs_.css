@@ -1,0 +1,39 @@
+/* 
+
+<div> 
+    <div>  <div/>
+    <div>  <div/>
+    <div>  <div/>
+<div/>
+
+
+Har Dive Puri Broweser Ki Width Ko Ocupi karta hai ab aise hi Es felx Cointer ko  matlb Es parenet div ko diplay propert flex dengnge waise hi ye normal countainer flex cointer ban jayega aur eske andhar ke sare ke sare flex item ban jayenge
+Note: Jab bhi Hame Ki Ko Flex box Container dena hota hai to haam uske Parent ki Propty yani Display Property ki flex de dete hai 
+
+Note : Ab haa yaha Ye Sikh rahe honge ki Agr kisi ko Haam Flex ki Propert det hai to uske element kaise behave karenge aur  kaise  kaise change ate hai unhi sari cheejo ko haa flex me sikh rahe honge smjha aab 
+
+*/
+
+#container {
+height: auto;
+width: 89%;
+background-color: azure;
+margin: 10px auto;
+border: 2px solid black;
+/* Display flex banane ke liye mujhe yaha yaha likhana honga ki contain deisplay flex to hamara contain ab dive nahi flex ban jayega  */
+display:flex;
+flex-direction:row;
+}
+
+h1 {
+text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.0em;
+   /* Abi etna dekho jab tume etne ke liye css appy karte ho to dekhonge ki hamre element main div se bahar ho gaye hai done Ab unko ek pattern me arrange karne ke liye haam display:flex propert ka use karenge  */
+}

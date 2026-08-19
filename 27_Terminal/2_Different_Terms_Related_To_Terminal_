@@ -1,0 +1,17 @@
+Different Terms:
+
+Command Line - any interface that is used by entering textual commands (gen. Windows centric)
+Terminal - This is a type of command line (gen. Mac centric)
+Console - A command-line interface used to work with your computer
+
+Shell - A program running on terminal
+
+ye sare popular sheel hai 
+
+1-  Bash - A popular shell on Mac OS/ Linux
+2-  Z-Shell - Another shell (default ata hai mac me )
+
+ sare ke ssare window user ko "git bash" instal karna padhta hai  
+ git bash se haam apni git ki commands bhi run kar payenge aur jitni bhi cammand haam terminal ke bare me sikhenge wo run kar payenge 
+
+

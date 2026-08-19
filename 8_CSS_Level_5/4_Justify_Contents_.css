@@ -1,0 +1,44 @@
+/*
+justify-content kya hai?
+> justify-content flex items ko
+    MAIN AXIS par align karta hai.
+    (Main axis = jo flex-direction se decide hoti hai)
+
+
+Justify Content:
+Def: Tells how the browser distributes space between and around content items along the main-axis
+1- justify-content: flex-start;
+2- justify-content: flex-end;
+3- justify-content: center;
+*/
+
+#container{
+height: auto;
+width: 80%;
+background-color: azure;
+margin: 10px auto;
+border: 2px solid ☐ black;
+display: flex;
+flex-direction: row;
+flex-direction: row-reverse;
+
+justify-content: flex-start;
+}
+h1 {
+text-align: center;
+}
+#container div {
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    /* font-size: 1.5em; */
+    font-size: auto;
+}
+
+/* 
+
+Justify Content = Agr hame  andhr ki jo extra sapace bach jati hai aur uske liye contole chahiye to haam ye sari property ka use akrte hai Done
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly; */

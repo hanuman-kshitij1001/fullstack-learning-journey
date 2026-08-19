@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get & Post Request</title>
+</head>
+<body>
+
+
+    <!-- _________________________Ye Ka Raha HIa Wo Jaan Lo Sun Hamre Username Aur Password ko Likh deta hai Kyu ki Hamne yaha pe Get methode use kiya tha ________________________________ -->
+    <h2>GET REQUEST FORM </h2>
+    <form action="http://localhost:8000/register" method="get">
+        <input placeholder="Enter Username" name="user" type="text">
+        <input placeholder="Enter your password" name="password" type="password">
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+
+    <!-- _______________________Ye methode Hamre Pass Word Aur User-id Wagera ko nahi dikhata hai post methode se ______________________________- -->
+    <h2>POST REQUEST FORM </h2>
+    <form action="http://localhost:8000/register" method="post">
+        <input placeholder="Enter Username" name="user" type="text">
+        <input placeholder="Enter your password" name="password" type="password">
+        <button type="submit">Submit</button>
+    </form>
+   
+    
+</body>
+</html>
+
+

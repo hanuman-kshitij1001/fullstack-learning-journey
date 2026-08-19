@@ -1,0 +1,20 @@
+Git Branches
+
+                        
+                        ╭──▶ > Comitte 1  > Commite 2 ......
+                        
+comitte1  > commite2    > Commite 3  >commite 4  .......
+
+                                                    ╰──▶ master
+                                                    
+                    
+Main Branch is our default branch 
+braches use karne ek use hai collebration
+and Palleralle work ke liye bhi use karte hai 
+
+
+                    ╭──▶  kaam kar raha hai koi  ➜➜  Kaam 2   
+                ╭──▶                                            ╰──▶
+Main Branch  ➜ Kaam/Bug                                            ╰──▶ Main Wala Kaam Fhir se   yaha sre ek kaam pe haye samjha na             
+                ╰──▶                                               ╭──▶
+                    ╰──▶  feature1   ➜  feature 2 ➜ feature 3 ╭──▶

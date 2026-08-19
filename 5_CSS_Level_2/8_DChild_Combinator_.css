@@ -1,0 +1,17 @@
+/* 
+
+Child Combinator
+Eg - Selects all buttons which are direct children of spans
+child combinator
+                span > button {
+                property: value;
+}
+
+Agr mai chahu div ke andhr jitne bhi child hai jo kuch bhi hai unko 
+sabko kuch color de dun to ye wahi baat baat hui ki div parent hai aur
+uske andr ane wale sab chlid . 
+
+Eska Disadvantge bhi hai search kar lena theek hai na 
+
+
+*/

@@ -1,0 +1,27 @@
+/*   Seclectors : jisse apne select kiya hai usspe ap css apply kar sakte hai 
+     jaise 
+     h1{
+        color:red
+        }
+
+
+// yaha pe haam h1 ko select kiya ahi 
+
+Tpye of selectors 
+
+1- Universal Selector : To select everything in a document
+    *{
+    property: value;
+    }
+Note = "*" this star use use select the things 
+
+
+*/
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* 
+Universal web site me usually use nahi karte ahi 
+
+*/

@@ -1,0 +1,43 @@
+/* 
+
+Color Systems
+Hexadecimal or Hex         color = #FFFFFF;(RGB)
+
+
+Letters:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+
+Number Systems:
+
+Decimal (math) 1       Binary              Hexadecimal
+
+Digits: 0 to 9        Digits: 0 & 1        0-9 A,B,C,D,E,F(16 Char)
+used in daily math    Used in computers
+base 10               Base 2                Base 16
+
+
+Note-< RGB jo vaue deta hai wahi value ham Decimal se hexa me convert kare hai bass etna hi hai bhai
+
+
+*/
+
+
+/* h2{
+    color: #00000f;
+} */
+
+
+/*  
+h2{
+    color: #ff00ff;
+
+} */
+
+h2{
+    color: #f0f;
+}
+
+/* 
+Note : # ye tag or sign include karn amat bhulna bahot important hota hai 
+*/

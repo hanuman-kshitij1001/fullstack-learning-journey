@@ -1,0 +1,26 @@
+/* 
+Line-height:
+Controls the height of the line of text
+line-height: normal
+line-height: 2.5
+
+*/
+
+p{
+    line-height: 1.5; 
+}
+
+
+/* 
+
+Letter-spacing:
+controls the horizontal spacing behavior between text characters
+letter-spacing: normal
+letter-spacing: 10px
+
+*/
+
+h1{
+    letter-spacing: normal;
+    letter-spacing: 5px;
+}

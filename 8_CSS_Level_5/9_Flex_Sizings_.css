@@ -1,0 +1,25 @@
+/* 
+Flex Sizing: 
+1>flex-basis
+   It sets the initial main size of a flex item.
+Ex : Syntax: flex-basis: 100px;
+
+Note: Agr mere Row Alingment to main Size mera width Ho jata hai  :
+Note: Agr mere Colomn Alingment to main Size mera height Ho jata hai  :
+*/
+
+/* 
+Flex Sizing:
+2>flex-grow
+   It specifies how much of the flex container's remaining space should be assigned to the flex item's main size
+Ex:Syntax :>: flex-grow: 1
+
+*/
+
+/* 
+Flex Sizing:
+3>flex-shrink
+   :It sets the flex shrink factor of a flex item.
+Ex:Syntax: flex-shrink: 1
+*/
+

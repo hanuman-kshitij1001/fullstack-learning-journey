@@ -1,0 +1,5 @@
+Configuring Git: matlb haam git ke andhr kuch basic cheeze pahele se hi setup kar dena 
+
+git config --global user.name "My Name"
+
+git config --global user.email "someone@email.com"

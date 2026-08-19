@@ -1,0 +1,18 @@
+/* 
+
+Media Queries:  orientation (of viewport)
+
+@media (orientation: landscape) (
+div {
+        background-color: red;
+    }
+}
+
+*/
+
+
+@media (orientation: landscape) {
+h1 {
+        background-color: orangered;
+    }
+}

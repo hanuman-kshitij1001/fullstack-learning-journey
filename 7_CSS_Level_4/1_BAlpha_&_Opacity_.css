@@ -1,0 +1,28 @@
+/* 
+Alpha Channel:Sets the opacity for a color
+Opacity means : color Kitna Visable Honga aur Kitna Hinden Honga Samjha Na That Is Called Opacity
+Ranges from 0 to 1
+Note:> Hidden:(for Zero ke Liye)  Or 1 menas pur visable
+rgba(255, 255, 255, 0.3) 
+Note:rgba Hamesaha Four value magta hai 
+Note:HexaValue Me End Se lAst wali Two value Opacity Ko dikhati hai done
+*/ 
+
+
+div{
+    height:200px;
+    width:200px;
+    background-color: rgba(255,0,0,0.5);
+}
+
+
+/* Opacity : CSS me apne aap me hi ek Propert hoti hai 
+Def:Sets the opacity for the element
+Ranges from 0 to 1
+hidden : 0 && Visible : 1
+opacity: 0.5 */
+
+#Opacity{
+background-color: aquamarine;
+opacity:0.5;
+}

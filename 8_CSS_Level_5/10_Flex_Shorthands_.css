@@ -1,0 +1,25 @@
+/* 
+
+Flex Shorthand::
+
+1> flex-grow | flex-shrink | flex-basis
+Ex> flex: 2 2 100px;
+
+2> flex-grow | flex-basis
+Ex> flex : 2 100px;
+
+3> flex-grow (unitless)
+Ex> flex : 2;
+
+4> flex-basis 
+Ex> flex: 100px;
+
+*/
+
+#container{
+    flex: 2 2 100px;
+    flex : 2 100px;
+    flex : 2;
+    flex: 100px;
+}
+

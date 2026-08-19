@@ -1,0 +1,40 @@
+/* 
+
+Grid Gaps:
+Def:They define the gaps between the lines
+
+1- row-gap
+
+2- column-gap
+
+3- grid-gap: rowGap columnGap
+
+
+*/
+
+.container{
+width: 600px;
+height: 300px;
+background-color: yellow;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat (3, 1fr);
+/* row-gap:10px;
+column-gap: 30px;
+*/
+/* Sorthand: row Gap , coloumn gap  */
+grid-gap : 10px 30px;
+
+
+grid-gap : 10px ;
+/* Eska Matlb hai Ki Row Ke Liye Bhi 10 px  ur colounm ke liye bhi 10 px ho jayegi done   */
+
+} 
+
+.item {
+width: 100px;
+height: 50px;
+background-color: greenyellow;
+border: 2px solid black;
+text-align: center;
+}

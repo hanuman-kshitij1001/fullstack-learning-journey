@@ -1,0 +1,13 @@
+Flags Hamre Chracters Hote jo kisi bhi commands ke sath external information pass karne ke kaam ate hai jo command ke behavior ko modify karta hai
+
+Flags
+Flags are characters that we pass with commands to modify their behaviour
+
+manual Command
+
+ye maual commands ko haam ye wali commands bolte hai =                  man Is - give info about Is command
+man mkdir- give info about mkdir command
+with Flags
+Is -1
+Is -a
+Is -la

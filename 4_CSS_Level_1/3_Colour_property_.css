@@ -1,0 +1,23 @@
+/* 
+
+Color Property
+Used to set the color of foreground matlb samne wala part 
+color : purple;
+color: #ffffff;
+
+Ex: Button = ka pichla hissa Background 
+Ex: Button = ka ltter wala hissa foreground 
+
+*/
+
+h1{
+    color:aqua;
+    color:rgb(14, 14, 161);
+}
+p{
+    color:green;
+}
+button{
+    color:aqua ;
+    background:black
+}

@@ -1,0 +1,14 @@
+Basic Commands
+⚫1- add - adds new or changed files in your working directory to the Git staging area.
+        git add <- file name ->
+
+⚫2- commit - it is the record of change
+        git commit -m "some message"
+
+⚫3- push - upload local repo content to remote repo
+        git push origin main
+
+
+
+Note:   Modify > Add > Commit(final change) ;
+Note:  Directly Add karne ke liye haam (git add .) likh dete hai sari files add ho jati hai ek sath theek hai na

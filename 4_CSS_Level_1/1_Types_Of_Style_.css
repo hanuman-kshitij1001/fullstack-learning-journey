@@ -1,0 +1,41 @@
+/* 
+1-
+How to Include Styles?
+Inline Styles
+Writing style directly inline on each element
+<h1 style="color: red"> Apna College </h1>
+
+2-
+How to Include Styles?
+Using <style> tag
+Style is added using the <style> element in the same document
+
+<style>
+
+    h1{
+        color: red;  = property value pair
+    }
+
+</style>
+
+*/
+
+/* 
+3-
+How to Include Styles?
+
+External Stylesheet:
+Writing CSS in a separate document & linking it with HTML file
+
+
+*/
+
+
+/* 
+
+Linking HTML with CSS File
+<head>
+<link rel="stylesheet" ref="style.css">
+</head>
+
+*/

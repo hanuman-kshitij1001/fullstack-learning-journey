@@ -1,0 +1,38 @@
+
+/* 
+
+Inline v/s Block:                                          
+
+  . Block Elements =                                                              . Inline Elements=                                                                     
+  1-Takes up the full-width available (whole block)                               1-Takes up only necessary width
+  2-Start From New Line                                                           2-Don't start from new line
+
+Display:Diplay Property Controle kar sakti hai kisi bhi element ko  jo mera css hai wo ek block elemnet ke traha treate karega ya fhir ek inline element ke tarah treate karega 
+
+Def: It sets whether an element is treated as a block or inline element and the layout used for its children
+
+1- display: inline ;
+Note: Ham Display Inline Jiss bhi elemet ko kar dete hai wfhir wo element inline ke tarah behave karta hai 
+
+2- display: block  ;
+Note: Ham Display block Jiss bhi elemet ko kar dete hai wfhir wo element block ke tarah behave karta hai 
+*/
+/* h1{
+    display:inline;
+    background-color: brown;
+}
+span{
+    display:block;
+    background-color:paleturquoise 
+} */
+
+
+span{
+    background-color: aquamarine;
+    border: 2px solid black; 
+    height:100px;
+    width:100px;
+    padding:2px;
+    /* Obresvation: Span Element ke andhar jab haam jab ham styling Set karte hai to height and width to kabhi set hi nahi ho rahi ya hoti hai and padding aur margin shirf left & Right hi set ho rahi hai Top & Bottom Bikul nahi  */
+   
+}

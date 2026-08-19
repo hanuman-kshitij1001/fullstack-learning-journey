@@ -1,0 +1,15 @@
+/* 
+
+font-family
+
+> Specifies a prioritized list of one or more font family names
+  font-family: arial;
+  font-family: avant garde, didot, sans-serif(backup family of fonts);
+
+  <refer "cssforntstack.com", website to know how many fornt are there to use u >
+Note : agr brower wo fornt support nahi karta to brower ka Default fornt diplay hota 
+       darna nahihai rona nahi hai  arey ye kya hogya maine o css me ye fornt likha tha  a hi nahi raha hai theekk 
+*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}

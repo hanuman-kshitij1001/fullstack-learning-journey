@@ -1,0 +1,90 @@
+/* 
+
+CSS: Cascading StyleSheets
+What is cascade in CSS?
+The CSS cascade algorithm's job is to select CSS declarations in order to determine the correct values for CSS properties.
+
+h2 {
+background-color: yellow;
+}
+
+
+h2 {
+background-color: blue; //final color is blue
+}
+
+matlb yaha bhi order matter karta hai bhai samjha na 
+*/
+
+h2{
+    background-color: red;
+}
+
+/* yaha pe jo css Upar apply ki thi wo cange ho gai  */
+h2{
+    background-color:yellow;
+}
+
+/*
+
+Selector Specificity
+What is specificity?
+Specificity is an algorithm that calculates the weight that is applied to a given CSS declaration.
+
+id         class,              element
+           attribute &         & pesudo-element
+           pesudo-class
+Note: Id > Class > Element
+
+
+Ex : 
+h2 {
+background-color: yellow;
+}
+
+0            0                    1
+id         class,              element
+           attribute &         & pesudo-element
+           pesudo-class
+Note: Id > Class > Element
+
+
+.myClass:hover {
+color: blue;
+}
+
+0            2                    0
+id         class,              element
+           attribute &         & pesudo-element
+           pesudo-class
+Note: Id > Class > Element
+
+
+
+
+
+
+
+Note : jab Specify  specificty same ho to css dehna 
+
+Selector Specificity
+What to remember?
+1- Id > class > element
+2- More selectos >  less selectos
+3- If Specificity same  then see The CSS
+
+
+
+Inline Specificity
+Inline styles are more specific than id
+
+0        0            0                    0
+inline  id          Class,              element
+                    attribute &         & pesudo-element
+                    pesudo-class
+
+
+
+
+*/
+

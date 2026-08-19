@@ -1,0 +1,91 @@
+
+/* 
+Grid Rows:
+def : Defines an item's starting & ending position inside the row
+
+grid-row-start: line_number
+grid-row-end: line_number
+
+grid-row: start_row / end_row
+grid-row: start_row / span number
+
+
+*/
+
+
+.container{
+width: 600px;
+height: 300px;
+background-color: yellow;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat (3, 1fr);
+grid-gap : 10px 30px;
+grid-gap : 10px ;
+}
+
+.item {
+/* width: 100px;
+height: 50px; */
+background-color: greenyellow;
+border: 2px solid black;
+text-align: center;
+}
+.one{
+    grid-column-start:1;
+    grid-column-end:3;
+    /* Eska mtlb hai ki ye mera first wala box jo hai na wo 1 se 3 tak ki puri space reserve kar lenga smjha na  */
+    grid-column: 1/4;  /* ye hamari upper wali property ka shorthand hai matlb ye 1 se start hua aur 4 pe end hua samjha na */
+    grid-column: 1/ span 2;  /* ye hamari upper wali property ka shorthand hai matlb ye 1 se start hua aur 4 pe end hua samjha na */
+
+}
+
+
+.two{
+   grid-row-start:1;
+   grid-row-end:3; 
+   /*  Short form  */
+   grid-row:1/3;
+   grid-row:1/ span 3
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+width: 600px;
+height: 300px;
+background-color: yellow;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat (3, 1fr);
+grid-gap : 10px 30px;
+grid-gap : 10px ;
+}
+
+.item {
+/* width: 100px;
+height: 50px; */
+background-color: greenyellow;
+border: 2px solid black;
+text-align: center;
+}
+.one{
+    grid-column-start:1;
+    grid-column-end:3;
+    /* Eska mtlb hai ki ye mera first wala box jo hai na wo 1 se 3 tak ki puri space reserve kar lenga smjha na  */
+    grid-column: 1/4;  /* ye hamari upper wali property ka shorthand hai matlb ye 1 se start hua aur 4 pe end hua samjha na */
+    grid-column: 1/ span 2;  /* ye hamari upper wali property ka shorthand hai matlb ye 1 se start hua aur 4 pe end hua samjha na */
+
+}

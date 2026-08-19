@@ -1,0 +1,37 @@
+/* 
+
+Height:By default, it sets the content arealleight of the element
+Yah content ki height ke bare me ham badh rahe matlb yahi ahi content ki hight yahi se set wagera karte hai bhai 
+So Jis Bhi Content ki Height ko haam set karna chahte hai usko hammm height de denge aur ":" ye laga ke value de denge done  
+By default, it sets the content arealleight of the element
+div {
+height: 100px;
+} 
+
+*/
+
+div{
+    height:120px;
+}
+
+
+/* Similar property : width */
+
+/* Width:By default, it sets the content area width of the element
+
+div {
+width: 300px;
+
+} 
+
+
+*/
+
+
+div {
+    width:505px;
+    background-color: aqua;
+}
+br{
+    background-color: red;
+}

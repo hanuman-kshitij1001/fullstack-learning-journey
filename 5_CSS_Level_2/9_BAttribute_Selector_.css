@@ -1,0 +1,25 @@
+/* 
+
+Attribute Selector: Selects elements based on the presence or value of a given attribute
+
+Attribute
+Selector
+        input[attr="value] {  // Eska Matlb ye hai ki mujhe sare ke sare wo input Element chahiye jiske andhr attribute value ke andhr a jata hai 
+        property:value;       
+}
+
+1-Yani ham apne Elelmt ko unke Attribute Aur Particula Value ke basis pe bhi Select kar sakte hai 
+2- Jaise Ye element ko select karta hai based on the presence or Attribute 
+3- yani Agr kissi Element ke andr chahe koi atribute precence ho tabbi usko select kar sakte hai ya fhie uski koi particuler value presence ho tabbi select kar sakte hai 
+
+
+*/
+input[type="text"] {
+color: red;
+}
+input[type="password"] {
+color:pink;
+}
+input[type]{
+    background-color:aqua
+}

@@ -1,0 +1,91 @@
+/* 
+
+Text Properties:
+1- text-align
+2- font-weight
+3- line-height  
+4- letter-spacing : abc to a b c 
+5- font-size :hamara text kitna bada chota hai
+
+*/
+
+
+
+/* 
+1- Text - align
+text-align: left / start
+text-align: right / end
+text-align: center
+text-align: justify : text ke andhr spaces ko increse kar dena jisse horizontal alingment increse ho jaye 
+
+h1{
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-align: start;  */
+    /* text-align:Center; */
+    /* border: solid;  */
+/* }
+    h3{
+    text-align:start;
+}  */
+
+
+
+/* 
+font-weight light to bold tak le jata hai 
+
+font-weight: normal    //400
+font-weight: bold     //700
+font-weight: 100
+font-weight: bolder
+font-weight: lighter
+
+h1 {
+text-align: center; }
+h3 { 
+    text-align: start;
+ }
+p {
+text-align: justify;
+}
+h2 {
+font-weight: 40
+}
+*/
+
+
+
+/* 3-  text-decoration
+>Sets the appearance of decorative lines on text like underline
+1-text-decoration: underline: underline
+2-text-decoration:  overline
+3-text-decoration: line-through
+
+h1 {
+text-align: center;
+text-decoration-line:underline ;
+}
+
+*/
+
+
+
+/* 
+
+text-decoration:
+1-text-decoration: red underline
+2-text-decoration: wavy overline
+3-text-decoration: dotted line-through
+
+Example:
+h1 {
+text-align: center;
+text-decoration: wavy overline
+
+Use basicly for :
+1-  Underline
+2-  Strikethrough
+3-  Anchor tag  :  ye wahi tag hai jada link dalte hai 
+}
+*/
+ 

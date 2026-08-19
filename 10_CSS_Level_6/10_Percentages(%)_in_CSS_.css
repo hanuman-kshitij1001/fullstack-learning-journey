@@ -1,0 +1,56 @@
+/* 
+
+% in Animation
+
+
+@keyframe myName {
+    0% {font-size: 20px;}
+    50% { font-size: 30px; }
+    100% { font-size: 40px; }
+}
+
+*/
+
+
+
+.box {
+height:100px;
+width:300px;
+background-color:pink;
+/* animation: widthAnimate 32 ease-in 0s infinite  normal; */
+animation: colorAnimate 32 ease-in 0s infinite  normal;
+
+
+
+}
+
+
+@keyframes widthAnimate {
+    from
+    {
+
+        width: 10px ;
+        background-color:green ;
+    }
+    to{
+        width: 400px ;
+        background-color: red;
+        border-radius: 15px;
+    } 
+}
+
+
+@keyframes colAnimate {
+        0% {
+        background-color: green;
+        }
+        50% {
+        background-color: yellow;
+        }
+        80% {
+        background-color: red;
+        }
+        100% {
+        background-color: blue;
+        }
+}

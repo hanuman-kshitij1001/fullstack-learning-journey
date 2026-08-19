@@ -1,0 +1,17 @@
+{
+  "name": "31_express_js_",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "kshitij",
+  "type": "commonjs",
+  "main": "1_What_is_Express_.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "i": "^0.3.7",
+    "nodemon": "^3.1.11"
+  }
+}

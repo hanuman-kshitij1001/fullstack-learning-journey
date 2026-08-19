@@ -1,0 +1,12 @@
+
+div{
+    height:200px;
+    width:200px;
+    background: green;
+    border:2px solid black;
+    display:inline;
+    /* Yaha hamne dekh ki last jab Display Prpoert use kari to Upar sari property kaam nahi kar rahi hai  */
+    /*Agr Hame Ye Upar wali aur Display wali property kaam me leni hai to Ap Diaplay : block ka use karo  */
+    display:none;
+    /* Kiss bhi elemet ko hide karne ke use kar sakte hai none  */
+}

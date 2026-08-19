@@ -1,0 +1,22 @@
+/* 
+
+Background Color Property
+Used to set the color of background
+background-color: purple;
+background-color: #ffffff;
+
+*/
+
+h1{
+    
+    color:rgb(14, 14, 161);
+    background-color:grey;
+}
+p{
+    color:green;
+    background-color:cornsilk
+}
+button{
+    color:aqua ;
+    background-color:red;
+}

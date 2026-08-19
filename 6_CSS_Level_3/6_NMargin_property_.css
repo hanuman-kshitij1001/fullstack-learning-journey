@@ -1,0 +1,17 @@
+/* 
+
+Margin property: Kinhi bhi Do Boxes Ke bech ke space ko agr hame control karn ahai to haam margin ka use karte hai
+
+To set spacing on the outside of border
+margin-left
+margin-right
+margin-top
+margin-bottom
+div {
+        margin:10px;
+}
+
+Note: 1- Margin border ke andhar hoti hai Aur Ye Orange Colour ka dikhta hai Hame Inspect me samjha na  
+      3- Esme Bhi Short-Hand tarika Hota hai Same wahi jo hamne padding me likha hai
+      2- Jab Ki padding Border ke bahar hoti hai 
+*/

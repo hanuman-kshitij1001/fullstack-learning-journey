@@ -1,0 +1,49 @@
+/* 
+    
+   CSS Transitions : jaise Ki Jab Ham Kiss bhi Elemnt ko hover kare to uska shape badal jaye samjha na 
+   Def:  Transitions enable you to define the transition between two states of an element. 
+   
+   
+*/
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    /* ese ham jab bhi hover karenge wo Change karega color aur 1 second lega samjha na  */
+    transition:5s;/* this the short hand Eske Shprt hand property hai theek  */
+    /* ese bhi likh sakte hai bhai  */
+    transition-duration:5s;
+}
+div:hover{
+    background-color: red;
+    /* Abhi Yaha Se Aage pe haam Ye Dekhnge Ki jab bhi hover karenge to shape change ho jayega */
+    border-radius: 50%;
+}
+
+/* Transition Shorthand::
+
+property name|duration|timing-function |delay
+
+Transition: margin-top 2s ease-in-out 0.2s;
+
+*/
+div {
+height: 100px;
+width: 100px;
+background-color: #4dff00ff;
+margin: 0 auto;
+margin-top: 10px;
+transition: margin-top 1s ease-in 0.2s;
+transition: margin-top 1s ease 0.2s;
+}
+
+div:hover {
+margin-top: 400px;
+}
+
+
+
+
+
+

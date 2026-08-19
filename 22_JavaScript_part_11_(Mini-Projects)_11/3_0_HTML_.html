@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple To-Do App</title>
+    <link rel="stylesheet" href="3_1_CSS_.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do App</h1>
+        </header>
+
+        <main>
+            <form id="task-form" class="input-area">
+                <input
+                    type="text"
+                    id="task-input"
+                    placeholder="What needs to be done?"
+                    autocomplete="off"
+                    required
+                    aria-label="Enter new task"
+                />
+                <button type="submit" id="add-btn">Add Task</button>
+            </form>
+
+            <section class="tasks-section">
+                <ul id="task-list">
+                    <!-- Yahan kuch nahi likha → list khali rahegi start mein -->
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="3_Event_Deligation_.js" defer></script>
+</body>
+</html>

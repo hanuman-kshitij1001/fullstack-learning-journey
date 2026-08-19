@@ -1,0 +1,32 @@
+ To yaha se Haam Kuch importans commands padhne wale hai 
+
+Basic Commands
+
+1-      Clone - Cloning a repository on our local machine           git clone <- some link ->
+
+2-       status - displays the state of the code                        git status
+  
+
+  //  clone ka matlb hota hai copy ya duplicate samjha
+  // arey darsal kya hai ki jaise haam github pe koi repositirory banaye aur haam chate hai ki uss repo ko apne system pe le aye to use haam clone karte hai 
+  bass etna sa hi hai bhai  
+
+  matlb samjh lo ki online to uski copy rahegi usko haam apne dowlode bhi kar sakte hai 
+
+
+  kaise karte hai 
+  syntax/commands : git clone <- some link ->
+
+  ab ye likn kon si hai yaha jab haam apne Github pe jayenge to waha pe ek code ka option hota hai pahlee rep me jana hai done 
+
+  usme 3 option ate hai 
+  1- HTTPS
+  2- SSH
+  3- Github CLI
+
+  to haam naya sikhna suru kiye hai to https hi use karenge theek 
+
+  
+  2- Status command jo hamare code ka status Batati hai jab bhi haam apne code ke andhr kuch chages karte hai  to hamre code ka status change hota hai staus chang hone ka matlb hai ki  jaise hamne ek latter hai usme hamne abcd likha hai usko pack karke stam mar dete hai to wo change nahi kar sakte usse samjha na waise hi git ki file bhi ese hi hoti hai  git file untracked hoti hai to git history ko track karta hai koi bhi chota se chta chage ayega git use kar leta hai 
+
+File Status LifeCycle:

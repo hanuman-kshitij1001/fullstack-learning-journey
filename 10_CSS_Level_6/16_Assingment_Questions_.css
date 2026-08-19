@@ -1,0 +1,22 @@
+.loader{
+    height:150px;
+    width: 150px;
+    border:10px solid goldenrod;
+    border-top:10px solid white; 
+    border-radius: 50%;
+    animation: loader 1s linear infinite ;
+    margin-left: 600px;
+    margin-top: 300px;
+    
+}
+
+ @keyframes loader{
+        0%{
+            transform: rotate(0deg);
+           }    
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+ 

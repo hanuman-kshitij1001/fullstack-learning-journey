@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #0f172a;           /* deep slate - very comfortable in dark mode */
+    color: #e2e8f0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 40px 15px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #c084fc;                /* soft violet - friendly accent */
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+}
+
+.input-area {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 35px;
+    background: #1e293b;
+    padding: 8px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+}
+
+input {
+    flex: 1;
+    padding: 14px 18px;
+    font-size: 1.1rem;
+    background: #0f172a;
+    color: #f1f5f9;
+    border: 1px solid #475569;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: #a78bfa;
+    box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.18);
+}
+
+input::placeholder {
+    color: #64748b;
+}
+
+button#add-btn {
+    padding: 0 28px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+button#add-btn:hover {
+    background: #6d28d9;
+    transform: translateY(-1px);
+}
+
+button#add-btn:active {
+    transform: translateY(0);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    transition: all 0.18s ease;
+}
+
+li:hover {
+    background: #253549;
+    border-color: #475569;
+    transform: translateX(4px);
+}
+
+li span {
+    font-size: 1.12rem;
+    color: #e2e8f0;
+}
+
+.delete {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.delete:hover {
+    background: #dc2626;
+    transform: scale(1.08);
+}
+
+.delete:active {
+    transform: scale(0.96);
+}
+
+/* completed task (you can add .completed class in JS) */
+li.completed {
+    opacity: 0.75;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #94a3b8;
+}
+
+/* mobile friendly */
+@media (max-width: 520px) {
+    h1 {
+        font-size: 2.4rem;
+        margin-bottom: 32px;
+    }
+
+    .input-area {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button#add-btn {
+        padding: 14px;
+        width: 100%;
+    }
+
+    li {
+        padding: 14px 16px;
+    }
+}

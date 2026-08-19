@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+</head>
+<body>
+    <h2>This Page Belongs To @<%= username %> </h2>
+    <button>Follow</button>
+    <button>Massage</button>
+    <h3>Followers: <%= followers %></h3>
+    <h3>Following: <%= following %></h3>
+    <h3>Posts:</h3>
+    <ul>
+        <% for(let post of posts) { %>
+    <li>
+        <img src="<%= post.image %>" width="150" alt="post"/>
+         Likes: <%= post.likes %>, Comments: <%= post.comments %>
+    </li>
+<% } %>
+</ul>
+
+</body>
+</html>
+ -->
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+</head>
+<body>
+    <h2>This Page Belongs To @<%= username %> </h2>
+    <button>Follow</button>
+    <button>Message</button>
+    
+    <h3>Followers: <%= data.followers %></h3>
+    <h3>Following: <%= data.following %></h3>
+    
+    <h3>Posts:</h3>
+    <ul>
+    <% for(let post of posts) { %>
+        <li>
+            <img src="<%= post.image %>" width="150" alt="post"/>
+            Likes: <%= post.likes %>, Comments: <%= post.comments %>
+        </li>
+    <% } %>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+/* Question 1: */
+h1 {
+color: pink;
+}
+#greet {
+color: yellow;    
+}
+.myClass {
+color: brown;
+}
+
+
+
+/* Question 2: 
+yaha pe specificity calculate karna padhta hai ya pe 
+*/
+div p {
+
+background-color:
+black;
+}
+.para {
+background-color:
+blue;
+}
+p {
+background-color:
+green;
+}
+
+
+
+
+/* Q-3   Esme bhai app  specificity calculate karna padega bhai
+         yaha pe specificity same hai to jo baad me ayega wo jitega theek */
+div.greetDiv.greet { color: green;
+}
+.greetDiv p.greet {  color:blue;
+}
+.greetDiv.greet { color: red;
+}

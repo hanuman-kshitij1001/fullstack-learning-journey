@@ -1,0 +1,27 @@
+/* 
+
+Font-size units in CSS::
+
+Absolute                            Relative
+
+px   96px = inch                      %
+pt                                    em
+pc                                    rem
+cm                                    ch
+mm                                    vh
+in                                    vw + many more
+
+*/
+
+/* 
+
+Pixels (px) :Most commonly used absolute unit
+> 96px = 1 inch
+> Not suitable for responsive websites
+> syntx:>   Font-size: 50px;
+
+*/
+
+/* h2{
+
+} */

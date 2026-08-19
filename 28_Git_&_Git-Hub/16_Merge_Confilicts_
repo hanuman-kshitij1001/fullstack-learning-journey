@@ -1,0 +1,12 @@
+Merge Conflits: hamre pass ek file usme hane chage kar diya fhir durse ek branch files thi usme bhi maine usi jagha chnahe kar diya to git ko samjh nahi ata hai ki ko sa change accept karna hai to usse hi conplict bolte hai ese conplict ko haam manually solve karte hai jake theek hai na 
+
+>> An event that takes place when Git is unable to automatically resolve differences in c between two commits.
+
+
+
+esa dikhta hai conflict 
+
+<<<<<<<< HEAD (Current Change)
+//add new feature button
+//add new feature form
+>>>>>>>> feature (Incoming Change)

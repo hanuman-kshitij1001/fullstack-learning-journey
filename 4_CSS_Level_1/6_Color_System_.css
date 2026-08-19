@@ -1,0 +1,42 @@
+/* 
+
+1- Color Systems:
+Named Colors     color = black;
+
+Each browser recognizes around 140 named colors.
+Eg - red, blue, pink, purple, magenta, teal etc.
+
+h1{
+    color:orange;
+}
+
+*/
+
+
+
+/* 
+
+
+
+2-  Color Systems:  
+Uses:   RGB use in Telivition Or Cemras Etc
+RGB hota hai      color = rgb( 0=//red, 0=//Green, 0=//blue );
+
+Red Green Blue (0-255)
+
+red is rgb(255, 0, 0)
+black is rgb(0, 0, 0)
+blue is rgb(0, 0, 255)
+yellow is rgb(255, 255, 0) 
+
+h1{
+    color:rgb(255,0,0);
+}
+*/
+
+/* h1{
+    color:rgb(255,255,255);
+} */
+h1{
+    color:rgb(255,20,255);
+}

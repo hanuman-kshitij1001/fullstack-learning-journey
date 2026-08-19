@@ -1,0 +1,22 @@
+/* 
+
+Background Image:
+Def:Lets you set an image as a background.
+
+background-image: url("../somepath/..img.jpg");
+Ye Upar wali Property To set karti hai Back-ground image ko But
+
+background-size:    [   contain / cover / auto;   ]
+Ye Upar wali Proerty set karti harmare lay out ko samjha na Jaise jab jab kabhi kabhi hamne dekha hai ki image jaise ham doenlode karte ahi wiase ki waise hi nahi show kaetri hai To uske liye hi ise dowlode karte ahi 
+
+*/
+div{
+width: 600px;
+height: 400px;
+background-color:#7aa874;
+margin: 10px auto;
+/* Yaha Se set kar rahe hai done */
+background-image:url(https://images.pexels.com/photos/1707820/pexels-photo-1707820.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: contain;
+background-size: cover;
+}

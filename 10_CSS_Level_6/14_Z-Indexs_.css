@@ -1,0 +1,35 @@
+/* 
+
+z-index: Es Property ka kaam hai ye batna ki website pe kon si cheez upar wale lable pe ayegi aur kon si cheez niche wale level par ayegi  
+
+Def:It decides the stack level of elements
+
+Overlapping elements with a larger z-index cover those with a smaller one.
+
+z-index: auto (0)
+z-index: 1/2/...       upper level ke trafh ata jayega 
+z-index:-1/-2/...      lower level ke trafh ata jayega 
+
+
+Note: Jitna hi stack level kam hota utna hi cheeze Piche ke tarfh  yahi me shift hoti chali jati hai Same wise versa 
+Note: Jiske Z-Index ki Value JAda Hongi wo Screen ke samne Ayega Aur jiski kaam hiongi wo piche chala jayega 
+Note: Z-index ap Unhi Element Ke Liye Set kar sakte ho Jinko ap koi postion de raki ho other nahi  matlb jis bhi elemetn ki postion  static hongi ya default Uss Element Ke Liye Z - INDEX property set nahi kar sakte hai 
+
+*/
+.box{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    background-color:pink;
+}
+
+.one{
+    background-color:aquamarine;
+}
+.two{
+    background-color:darksalmon;
+    position:relative;
+    bottom:50px;
+    z-index:auto(0);
+    z-index:-8;
+}

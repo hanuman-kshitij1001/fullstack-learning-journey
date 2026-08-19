@@ -1,0 +1,42 @@
+/* Grid Template Reapeat
+
+Grid Template:
+Def: Repeat is used to divide all available space
+
+1-grid-template-rows: repeat(count, 1fr)
+
+2-grid-template-columns: repeat(count, 1fr)
+
+
+
+3-grid-template-rows: repeat(2, 1fr)
+
+4-grid-template-rows: 1fr 1fr
+
+
+
+NOTE : 1fr = 1 fraction of 100% width Avlable space
+*/
+
+.container {
+width: 600px;
+height: 600px;
+/* height: 300px; */
+background-color: yellow;
+display: grid;
+
+grid-template-rows: 1fr 1fr 1fr 1fr;
+/* Ye upar niche dono hi same cheej hai tum kuch bhi likh sakte ho done  */
+grid-template-rows: repeat(5 ,1fr);
+grid-template-columns: repeat(5 ,1fr);
+
+}
+.item {
+width: 100px;
+height: 50px;
+background-color: greenyellow;
+border: 2px solid black;
+text-align: center;
+}
+
+

@@ -1,0 +1,14 @@
+/* Align Items:
+Def: Distributes our items along the cross axis
+1- justify-content: flex-start;
+2- justify-content: flex-end;
+3- justify-content: center;       
+
+Align Items:
+4- justify-content: base-center;   
+
+Agr apke dive ke andhr ya flex item ke andr koi content likh hua hai  to wo sara ka sara ek same line pe jayega samjha jaise man le dive me hamare text likha hua hai to wo sare inside wale div me jitne bhi txt honge wo sare ke sare ek line line me jayenge mai alg alg chote chote div ki baat baat kar raha haun 
+That is called the base line samjha na 
+
+
+*/

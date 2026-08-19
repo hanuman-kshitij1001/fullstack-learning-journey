@@ -1,0 +1,75 @@
+/* 
+Border
+Used to set an element's border
+border-width: Border kitna Width ka honga wo ye set karega 
+border-style: Border ki Systle kya hongi wo Ye set karega samjha na
+border-color : Aur border ka color kya honga wo ye set karega theek hai na bhai
+*/
+
+div{
+    height:auto;
+    width:auto;
+    background-color: aqua;
+    border-width:3px;
+    border-style:solid;
+    border-color:red;
+}
+button{
+    background-color: black;
+    color:white;
+    border-width:2px;
+    border-style:solid;
+    border-color:red;
+}
+h1{
+    border-color: purple;
+    border-width:5px;
+    border-style:dotted;
+    width:245px;
+}
+
+/* 
+Abi tak hamne kya kiya ki border ki propert ko indiviualy define kiya with color , width , style ke form me ab
+lekin ham chahe to teno ko ek hi single line me likh sakte hai that is called border short hand property 
+Border Shorthand:
+
+width | style | color   > Yahi same order hai jo follow karna hai Done;
+
+
+div {
+border: 2px solid blue;
+} 
+*/
+
+div {
+border: 2px solid blue;
+} 
+
+
+/* 
+Border Sides:Arey kuch nahi abhi tak hmm kya kar rahe the ki border set kar rahe the to pura border left,right,top,bottom sab ek color ka dikh rha tha but agr esse use kare to 
+To control an individual side of the box
+
+1- border-left
+
+2- border-right
+
+3- border-top
+
+4- border-bottom 
+
+
+par agr indivius use karna hai to esse likhna ki
+border-left-color:;
+border-left-height:;
+border-left-weight:;
+
+
+*/
+
+div{
+border-left:5px solid red;
+border-right:5px solid greenyellow;
+border-top:5px solid black;
+border-bottom:5px solid blue; 
+}

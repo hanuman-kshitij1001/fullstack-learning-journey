@@ -1,0 +1,35 @@
+/* 
+
+Flex Wrap 
+Def: Sets whether flex items are forced onto one line or can wrap onto multiple lines
+1- flex-wrap: nowrap;
+2- flex-wrap : wrap;
+3- flex-wrap : wrap-reverse;
+
+*/
+
+#container {
+/* height: auto;
+width: auto; */
+height: 500px;
+width: 89%;
+background-color: azure;
+margin: 10px auto;
+border: 2px solid black;
+display: flex;
+flex-direction: start;
+
+flex-wrap:wrap;
+}
+
+h1 {
+text-align: center;
+}
+
+#container div {
+height: 100px;
+width: 100px;
+color: white;
+text-align: center;
+font-size: auto;
+}

@@ -1,0 +1,37 @@
+/* 
+
+Pseudo Class:
+A Keyword added to a selector that specifies a special state of the selected element(s)
+: hover
+: active
+: checked
+: nth-of-type
+
+*/
+/* 1- */
+Button:hover{
+    background-color: red;
+    color:aliceblue
+}
+h2:hover{
+    color:azure;
+    background-color:brown;
+    
+}
+
+/*2- Bhai jab click akroge to color change honga */
+button:active{ 
+    background-color:blue;
+    color:black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+} input[type="radio"]:checked + label{
+    color:red;
+    font-synthesis-weight:bold;
+}
+/* 3- Jab nth Element ko select karna hai to ye esse kar sakte hai */
+.post:nth-of-type(){
+    background-color:blanchedalmond;
+}

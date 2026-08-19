@@ -1,0 +1,49 @@
+/* 
+
+
+padding: imagine the Ghar ka box jisme tum man lo kach ka gilash rakh ke le ja rahe to jo jagha charo trafh bach rahi hai jaha tum sochte ho ki yaha mai kagaj laga du to bass wahi pading 
+Kabhi ye maat sochn aki padding nahi hoti hai always bhai
+
+padding-left : Ye hamri Left wali padding set karta hai
+padding-right  Ye hamri Right wali padding set karta hai
+padding-top: Ye hamri Top wali padding set karta hai
+padding-bottom: Ye hamri Bottom wali padding set karta hai
+
+div {
+padding-left: 50px;
+}
+*/
+
+div {
+padding-left: 50px;
+}
+button{
+    border:2px solid red;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: yellow;
+}
+
+
+
+/*
+
+Padding Shorthand :
+
+#1. For all 4 sides  : jab Hame Sare side pe same padding rakhi ho.
+    Ex: padding: 50px;
+    
+#2. top & bottom | left & right   : Eska Matlb ye hai ki top aur bottom ki padding 1px rako  && Left Or Right ki padding ko 2px Rakho Done. 
+    Ex:padding: 1px 2px;  esme top&&bottom Ko alag Padaing de raha hun And Same next ke liye bhi 
+
+#3. top | left & right |bottom
+    Ex:padding: 1px 2px 3px;
+
+#4. top | right | bottom | left
+    Note : *clockwise*
+    Ex:padding: 1px 2px 3px 4px;
+        
+Note: Commonly use 1,4;   
+
+*/

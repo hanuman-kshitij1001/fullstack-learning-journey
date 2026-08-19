@@ -1,0 +1,28 @@
+/* 
+
+Border Radius
+Used to round the corners of an element's outer border edge : Matlb Ki cone ko round karne ke liye ye sab use kiya jata hai 
+div {
+border-radius: 15px;
+}
+div {
+border-radius: 50%;
+}
+*/
+
+div {
+border-radius: 15px;
+}
+div {
+border-radius: 50%;
+}
+
+
+div{
+height: auto;
+width: auto;
+background-color: pink;
+border: 5px solid red;
+border-radius: 0%;
+border-top-right-radius: 50%;
+}

@@ -1,0 +1,31 @@
+/* 
+CSS Grid:
+Def: Setting a container's display to grid will make all children grid items
+container {
+display : grid;
+}
+
+GRIDE MODEL::
+1- Grid Line  :: imagain Jo lines Hoti hai wahi gride hai
+2- Grid Cell  :: imagine jo line ke bich me boxes hai wahi cell hai 
+3- Grid Track :: imagain Jo Horizental lines hai wo harmi matlb unke bich ke distance samjh lo wo apne track hai smjha na 
+
+ */
+
+
+ .container{
+    /* height:300px;
+    width:600; */
+    height:auto;
+    width:600;
+    background-color:black;
+    display:grid;
+ }
+ .item{
+    width:100px;
+    height:100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+
+ }

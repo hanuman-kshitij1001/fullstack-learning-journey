@@ -1,0 +1,8 @@
+// Paths :
+// Absolute & Relative  
+// Absolute path hamesa slash ke sath suru hote hai aur Relative path hamesha kisi name ke sath suru hote hai 
+
+// 1-      cd Desktop/Delta (relative path)
+// 2-      cd /Users/shradhakhapra/Desktop (absolute path)
+// 3-      / = root directory   (Matlb hamre computer ki jitni bhi sari cheze hai wo es root directory ke andhr hi hoti hai )
+// 4-      ~ = home directory

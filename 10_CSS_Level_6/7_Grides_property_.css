@@ -1,0 +1,54 @@
+/* 
+
+Common Properties:
+
+justify-items      (container)
+justify-self       (item)
+
+Agr Hame Apne Item ko horizentali align kar ha to uske liye ye do property hoti hai  
+
+align-items         (container)
+align-self          (item)
+
+Agr Hame Apne Item ko Vertical align kar ha to uske liye ye do property hoti hai  Vertical
+
+
+*/
+
+
+
+.container{
+width: 600px;
+height: 300px;
+background-color: yellow;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat (3, 1fr);
+/* grid-gap : 10px 30px; */
+grid-gap : 10px ;
+display: inline-grid; /*  Ese Kya honga Ki Ye jo mera Span Element hai wo grid ke baad jake create ho jata hai */
+
+
+
+
+
+justify-items: start;   /*By default hamre item cell ke start me placed ho jayenge samjhana*/
+justify-items: end;   /*By default hamre item cell ke end me placed ho jayenge samjhana*/
+
+
+
+}
+
+.item {
+/* width: 100px;
+height: 50px; */
+background-color: greenyellow;
+border: 2px solid black;
+text-align: center;
+
+
+justify-items: center;
+}
+.one{
+    justify-self: end;
+}

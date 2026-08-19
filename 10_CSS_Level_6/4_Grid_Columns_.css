@@ -1,0 +1,41 @@
+/* <!-- 
+ 
+Grid Columns:
+> Defines an item's starting & ending position inside the column
+
+1.> grid-column-start: line_number
+2.> grid-column-end: line_number
+
+
+3.> grid-column: start_col / end_col
+4.> grid-column: start_col/ span number
+
+--> */
+
+
+.container{
+width: 600px;
+height: 300px;
+background-color: yellow;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat (3, 1fr);
+grid-gap : 10px 30px;
+grid-gap : 10px ;
+}
+
+.item {
+/* width: 100px;
+height: 50px; */
+background-color: greenyellow;
+border: 2px solid black;
+text-align: center;
+}
+.one{
+    grid-column-start:1;
+    grid-column-end:3;
+    /* Eska mtlb hai ki ye mera first wala box jo hai na wo 1 se 3 tak ki puri space reserve kar lenga smjha na  */
+    grid-column: 1/4;  /* ye hamari upper wali property ka shorthand hai matlb ye 1 se start hua aur 4 pe end hua samjha na */
+    grid-column: 1/ span 2;  /* ye hamari upper wali property ka shorthand hai matlb ye 1 se start hua aur 4 pe end hua samjha na */
+
+}
